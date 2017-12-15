@@ -5,16 +5,18 @@
     <Copyright>durow@2017</Copyright>
     <AssemblyTitle>UEditorNetCore</AssemblyTitle>
     <VersionPrefix>1.0.3</VersionPrefix>
-    <TargetFramework>netstandard1.6</TargetFramework>
+    <TargetFramework>netstandard2.0</TargetFramework>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <AssemblyName>UEditorNetCore</AssemblyName>
     <PackageId>UEditorNetCore</PackageId>
-    <PackageProjectUrl>https://github.com/durow/UEditorNetCore</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/sankeyou/UEditorNetCore</PackageProjectUrl>
     <NetStandardImplicitPackageVersion>1.6.0</NetStandardImplicitPackageVersion>
     <PackageTargetFallback>$(PackageTargetFallback);dnxcore50</PackageTargetFallback>
     <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
     <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
     <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>2.0.3</Version>
   </PropertyGroup>
 
   <ItemGroup>
