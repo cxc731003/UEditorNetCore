@@ -304,7 +304,27 @@
             $('.info', '#queueList').html('<span style="color:red;">' + '还有2个未上传文件'.replace(/[\d]/, count) + '</span>');
             return false;
         } else {
-            editor.execCommand('insertvideo', videoObjs, 'upload');
+
+            //alert("else");
+            var is_music = 0;
+            var ext = file.url.split('.').pop().toLowerCase();
+            var music_type = ['mp3', 'wav'];
+            for (var i in music_type) {
+                if (music_type[i] == ext) {
+                    is_music = 1;
+                }
+            }
+            if (is_music) {
+                //alert(uploadDir + file.url);
+                editor.execCommand('music', {
+                    url: uploadDir + file.url,
+                    width: 400,
+                    height: 95
+                });
+            } else {
+                editor.execCommand('insertvideo', videoObjs, 'upload');
+            }
+            //editor.execCommand('insertvideo', videoObjs, 'upload');
         }
     }
 

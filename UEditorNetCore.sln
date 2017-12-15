@@ -7,9 +7,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{8C912659-24A
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5BEAA526-1CF1-48E8-AE15-EB19DE84F2A4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UEditorNetCore", "src\UEditorNetCore\UEditorNetCore.csproj", "{DC326378-C111-4925-9B61-BD233A75259D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UEditorNetCore", "src\UEditorNetCore\UEditorNetCore.csproj", "{DC326378-C111-4925-9B61-BD233A75259D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample", "src\Sample\Sample.csproj", "{CABEF6AC-DC7E-4ABB-BD8E-9FD64227AE44}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sample", "src\Sample\Sample.csproj", "{CABEF6AC-DC7E-4ABB-BD8E-9FD64227AE44}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

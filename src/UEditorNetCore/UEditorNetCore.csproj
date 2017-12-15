@@ -3,7 +3,16 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>2.0.0</Version>
+    <Version>1.0.0</Version>
+    <Description>百度在线编辑器UEditor在ASP.NET Core下的服务端，使用简单，易于扩展。
+fork自https://github.com/durow/UEditorNetCore
+从.net core 1.0 改到 .net core 2.0</Description>
+    <PackageId>UEditorForNetCore2</PackageId>
+    <Authors>UEditorForNetCore2</Authors>
+    <Company>UEditorForNetCore2</Company>
+    <Product>UEditorForNetCore2</Product>
+    <RootNamespace>UEditorNetCore</RootNamespace>
+    <AssemblyName>UEditorNetCore</AssemblyName>
   </PropertyGroup>
 
   <ItemGroup>
