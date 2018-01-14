@@ -5,7 +5,7 @@ UEditor官网：http://ueditor.baidu.com/website/index.html  
 UEditor源代码：https://github.com/fex-team/ueditor    
 # 安装
 ```
-Install-Package UEditorNetCore
+Install-Package UEditorNetCore2
 ```
 
 # 使用
